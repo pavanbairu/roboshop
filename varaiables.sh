@@ -1,3 +1,3 @@
-script = (realpath $0)
-echo script
+script=$(realpath "$0")
+echo path is ${script}
 exit
