@@ -19,3 +19,13 @@ function_name1() {
 }
 
 function_name1 123 xyz
+
+function_add(){
+  a=10 b=20
+  c=$((a+b))
+  echo value of c is : $c
+  return 1
+}
+
+function_add
+echo exit status return code is $?
